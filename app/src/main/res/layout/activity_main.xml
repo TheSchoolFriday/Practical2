@@ -250,7 +250,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
-                    android:text="Javanese"
+                    android:text="Irish Wolfhound"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -261,7 +261,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Felis Catus"
+                    android:text="Canis Lupus"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -270,10 +270,10 @@
                     android:layout_width="250sp"
                     android:layout_height="250sp"
                     android:layout_margin="20sp"
-                    app:srcCompat="@drawable/cat" />
+                    app:srcCompat="@drawable/wolfhound" />
 
                 <Button
-                    android:id="@+id/buttonIrish"
+                    android:id="@+id/buttonWolfhound"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
@@ -294,7 +294,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
-                    android:text="Jellyfish"
+                    android:text="Irish Terrier"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -305,7 +305,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Felis Catus"
+                    android:text="Canis lupus"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -314,7 +314,7 @@
                     android:layout_width="250sp"
                     android:layout_height="250sp"
                     android:layout_margin="20sp"
-                    app:srcCompat="@drawable/cat" />
+                    app:srcCompat="@drawable/terrier" />
 
                 <Button
                     android:id="@+id/buttonTerrier"
@@ -338,7 +338,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
-                    android:text="Javanese"
+                    android:text="Iguana"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -349,7 +349,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Felis Catus"
+                    android:text="Iguanidae"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -358,7 +358,7 @@
                     android:layout_width="250sp"
                     android:layout_height="250sp"
                     android:layout_margin="20sp"
-                    app:srcCompat="@drawable/cat" />
+                    app:srcCompat="@drawable/iguana" />
 
                 <Button
                     android:id="@+id/buttonIguana"
@@ -382,7 +382,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
-                    android:text="Javanese"
+                    android:text="Indian Elephant"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -393,7 +393,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Felis Catus"
+                    android:text="Elephas maximus indicus"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -402,7 +402,7 @@
                     android:layout_width="250sp"
                     android:layout_height="250sp"
                     android:layout_margin="20sp"
-                    app:srcCompat="@drawable/cat" />
+                    app:srcCompat="@drawable/elephant" />
 
                 <Button
                     android:id="@+id/buttonElephant"
@@ -426,7 +426,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
-                    android:text="Javanese"
+                    android:text="Indian Star Tortoise"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -437,7 +437,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Felis Catus"
+                    android:text="Geochelone elegans"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -446,7 +446,7 @@
                     android:layout_width="250sp"
                     android:layout_height="250sp"
                     android:layout_margin="20sp"
-                    app:srcCompat="@drawable/cat" />
+                    app:srcCompat="@drawable/tortoise" />
 
                 <Button
                     android:id="@+id/buttonTortoise"
