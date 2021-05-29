@@ -4,4 +4,6 @@
     <string name="canis_aureus">Canis Aureus</string>
     <string name="scientific_classification">Scientific Classification</string>
     <string name="description">Description</string>
+    <string name="click_here_to_learn_more">Click here to Learn More!</string>
+    <string name="return_back">Return Back</string>
 </resources>

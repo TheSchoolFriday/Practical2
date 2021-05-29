@@ -4,7 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/buttonReturn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/return_back"
+        android:textColor="@color/white"
+        app:backgroundTint="#000000" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,7 +23,6 @@
         android:text="@string/jackal"
         android:textColor="@color/black"
         android:fontFamily="sans-serif-black"
-        android:layout_marginTop="20sp"
         android:textSize="20sp"/>
 
     <TextView
@@ -37,7 +46,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textViewScientific"
+            android:id="@+id/textViewScientific2"
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -48,41 +57,50 @@
             android:text="@string/scientific_classification" />
 
         <TextView
-            android:id="@+id/textViewDescription"
+            android:id="@+id/textViewDescription2"
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
             android:padding="20sp"
-            android:text="@string/description" />
+            android:text="@string/description"
+            android:textColor="#80000000" />
 
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250sp"
-        android:orientation="vertical">
+        android:layout_height="180dp">
 
-        <TextView
-            android:id="@+id/textViewDisplay"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="20sp"
-            android:textSize="18sp"
-            android:fontFamily="sans-serif-thin"
-            android:textColor="@color/black"
-            android:text="The scientific name of a common jackal is Canis aureus. The word Canis is Latin for dog and aureus means golden. So, it makes sense that another name for the common jackal is the golden jackal. Its family is Canidae and its class is Mammalia." />
-    </LinearLayout>
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDisplay2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20sp"
+                android:text="The scientific name of a common jackal is Canis aureus. The word Canis is Latin for dog and aureus means golden. So, it makes sense that another name for the common jackal is the golden jackal. Its family is Canidae and its class is Mammalia."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
 
     <TextView
-        android:id="@+id/textViewLearnMore"
+        android:id="@+id/textViewLearnMore2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
         android:gravity="center"
         android:padding="20sp"
-        android:text="Click here to Learn More!"
+        android:text="@string/click_here_to_learn_more"
         android:textColor="#FF0000"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        app:drawableTint="#000000" />
 
 </LinearLayout>
