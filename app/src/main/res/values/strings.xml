@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Practical2</string>
+    <string name="jackal">Jackal</string>
+    <string name="canis_aureus">Canis Aureus</string>
+    <string name="scientific_classification">Scientific Classification</string>
+    <string name="description">Description</string>
 </resources>

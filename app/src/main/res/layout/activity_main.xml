@@ -4,7 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF9800"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="Slide right or left to see more!"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -19,8 +29,8 @@
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -54,17 +64,22 @@
 
                 <Button
                     android:id="@+id/buttonJackabee"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -74,7 +89,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
-                    android:text="Jackal"
+                    android:text="@string/jackal"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -85,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Canis Aureus"
+                    android:text="@string/canis_aureus"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -98,17 +113,22 @@
 
                 <Button
                     android:id="@+id/buttonJackal"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -142,17 +162,22 @@
 
                 <Button
                     android:id="@+id/buttonJavanese"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -186,17 +211,22 @@
 
                 <Button
                     android:id="@+id/buttonJerboa"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -230,17 +260,22 @@
 
                 <Button
                     android:id="@+id/buttonJellyfish"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -274,17 +309,22 @@
 
                 <Button
                     android:id="@+id/buttonWolfhound"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -318,17 +358,22 @@
 
                 <Button
                     android:id="@+id/buttonTerrier"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -362,17 +407,22 @@
 
                 <Button
                     android:id="@+id/buttonIguana"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    app:backgroundTint="#FFFFFF"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -406,17 +456,22 @@
 
                 <Button
                     android:id="@+id/buttonElephant"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="412dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -450,10 +505,15 @@
 
                 <Button
                     android:id="@+id/buttonTortoise"
+                    style="@android:style/Widget.Holo.Button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:text="Know more" />
+                    android:text="More details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
 
