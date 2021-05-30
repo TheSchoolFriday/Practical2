@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical2">
-        <activity android:name=".Jackal"></activity>
+        <activity android:name=".Elephant"></activity>
+        <activity android:name=".Iguana" />
+        <activity android:name=".Terrier" />
+        <activity android:name=".Wolfhound" />
+        <activity android:name=".jellyfish" />
+        <activity android:name=".Jerboa" />
+        <activity android:name=".Javanese" />
+        <activity android:name=".Jackabee" />
+        <activity android:name=".Jackal" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

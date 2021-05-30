@@ -6,4 +6,17 @@
     <string name="description">Description</string>
     <string name="click_here_to_learn_more">Click here to Learn More!</string>
     <string name="return_back">Return Back</string>
+    <string name="slideleftorright">Slide right or left to see more!</string>
+    <string name="more_details">More Details</string>
+    <string name="jackabee">Jackabee</string>
+    <string name="canis_lupus">Canis lupus</string>
+    <string name="displaydefault">For Android Studio to See.</string>
+    <string name="jerboa">Jerboa</string>
+    <string name="dipodidae">Dipodidae</string>
+    <string name="irish_wolfhound">Irish Wolfhound</string>
+    <string name="jellyfish">Jellyfish</string>
+    <string name="cyaneidae">Cyaneidae</string>
+    <string name="irish_terrier">Irish Terrier</string>
+    <string name="iguana">Iguana</string>
+    <string name="iguanidae">Iguanidae</string>
 </resources>

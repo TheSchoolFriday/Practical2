@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        btnJackabee
+        btnJackabee = findViewById(R.id.buttonJackabee);
         btnJackal = findViewById(R.id.buttonJackal);
         btnJavanese = findViewById(R.id.buttonJavanese);
         btnJerboa = findViewById(R.id.buttonJerboa);
@@ -28,9 +28,13 @@ public class MainActivity extends AppCompatActivity {
         btnElephant = findViewById(R.id.buttonElephant);
         btnTortoise = findViewById(R.id.buttonTortoise);
 
-        // Reserved for Jackabee Demonstration
-
-
+        btnJackabee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Jackabee.class);
+                startActivity(intent);
+            }
+        });
 
         btnJackal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,32 +47,31 @@ public class MainActivity extends AppCompatActivity {
         btnJavanese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Yep I work.", Toast.LENGTH_SHORT).show();
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Javanese.class);
+                startActivity(intent);
             }
         });
 
         btnJerboa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Jerboa.class);
+                startActivity(intent);
             }
         });
 
         btnJellyfish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, jellyfish.class);
+                startActivity(intent);
             }
         });
 
         btnWolfhound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
+                Intent intent = new Intent(MainActivity.this, Wolfhound.class);
 //                startActivity(intent);
             }
         });
@@ -76,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         btnTerrier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
+                Intent intent = new Intent(MainActivity.this, Terrier.class);
 //                startActivity(intent);
             }
         });
@@ -84,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         btnIguana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
+                Intent intent = new Intent(MainActivity.this, Iguana.class);
 //                startActivity(intent);
             }
         });
@@ -92,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         btnElephant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
+                Intent intent = new Intent(MainActivity.this, Elephant.class);
 //                startActivity(intent);
             }
         });
@@ -100,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         btnTortoise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, Jackal.class);
+                Intent intent = new Intent(MainActivity.this, Tortoise.class);
 //                startActivity(intent);
             }
         });

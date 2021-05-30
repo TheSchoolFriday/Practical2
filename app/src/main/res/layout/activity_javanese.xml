@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonReturn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        app:backgroundTint="#000000"
+        android:text="@string/return_back"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Javanese"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Felis Catus"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_margin="20sp"
+        app:srcCompat="@drawable/javanese" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewScientific3"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="@string/scientific_classification" />
+
+        <TextView
+            android:id="@+id/textViewDescription3"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="@string/description"
+            android:textColor="#80000000" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDisplay3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20sp"
+                android:text="@string/displaydefault"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewLearnMore3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="@string/click_here_to_learn_more"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:drawableTint="#000000" />
+
+</LinearLayout>
