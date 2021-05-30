@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical2">
-        <activity android:name=".Elephant"></activity>
+        <activity android:name=".Tortoise"></activity>
+        <activity android:name=".Elephant" />
         <activity android:name=".Iguana" />
         <activity android:name=".Terrier" />
         <activity android:name=".Wolfhound" />

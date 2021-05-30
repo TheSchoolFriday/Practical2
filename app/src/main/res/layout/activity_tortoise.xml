@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/buttonReturn9"
+        android:id="@+id/buttonReturn10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/indian_elephant"
+        android:text="@string/indian_star_tortoise"
         android:textColor="@color/black"
         android:fontFamily="sans-serif-black"
         android:textSize="20sp"/>
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/elephas_maximus_indicus"
+        android:text="@string/geochelone_elegans"
         android:fontFamily="sans-serif"
         android:textColor="#000000"
         android:textSize="20sp" />
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="235dp"
         android:layout_margin="20sp"
-        app:srcCompat="@drawable/indian_elephant1" />
+        app:srcCompat="@drawable/indian_tortoise1" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,7 +47,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textViewScientific9"
+            android:id="@+id/textViewScientific10"
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -58,7 +58,7 @@
             android:text="@string/scientific_classification" />
 
         <TextView
-            android:id="@+id/textViewDescription9"
+            android:id="@+id/textViewDescription10"
             android:layout_width="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -80,7 +80,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewDisplay9"
+                android:id="@+id/textViewDisplay10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="sans-serif-thin"
@@ -92,7 +92,7 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/textViewLearnMore9"
+        android:id="@+id/textViewLearnMore10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"

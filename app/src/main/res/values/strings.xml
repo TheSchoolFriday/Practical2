@@ -19,4 +19,8 @@
     <string name="irish_terrier">Irish Terrier</string>
     <string name="iguana">Iguana</string>
     <string name="iguanidae">Iguanidae</string>
+    <string name="indian_elephant">Indian Elephant</string>
+    <string name="elephas_maximus_indicus">Elephas Maximus Indicus</string>
+    <string name="indian_star_tortoise">Indian Star Tortoise</string>
+    <string name="geochelone_elegans">Geochelone elegans</string>
 </resources>

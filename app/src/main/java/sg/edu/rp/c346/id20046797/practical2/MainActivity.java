@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Wolfhound.class);
-//                startActivity(intent);
+                startActivity(intent);
             }
         });
 
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Terrier.class);
-//                startActivity(intent);
+                startActivity(intent);
             }
         });
 
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Iguana.class);
-//                startActivity(intent);
+                startActivity(intent);
             }
         });
 
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Elephant.class);
-//                startActivity(intent);
+                startActivity(intent);
             }
         });
 
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Tortoise.class);
-//                startActivity(intent);
+                startActivity(intent);
             }
         });
 

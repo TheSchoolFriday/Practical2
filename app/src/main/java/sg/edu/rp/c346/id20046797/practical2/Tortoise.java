@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Elephant extends AppCompatActivity {
+public class Tortoise extends AppCompatActivity {
 
     private int currentFontSize = 16;
 
@@ -25,30 +25,28 @@ public class Elephant extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_elephant);
+        setContentView(R.layout.activity_tortoise);
 
         // Text View Find By.
-        tvScientific = findViewById(R.id.textViewScientific9);
-        tvDescription = findViewById(R.id.textViewDescription9);
-        tvDisplay = findViewById(R.id.textViewDisplay9);
-        tvLearnMore = findViewById(R.id.textViewLearnMore9);
+        tvScientific = findViewById(R.id.textViewScientific10);
+        tvDescription = findViewById(R.id.textViewDescription10);
+        tvDisplay = findViewById(R.id.textViewDisplay10);
+        tvLearnMore = findViewById(R.id.textViewLearnMore10);
 
         // Button Find By.
-        btnReturnback = findViewById(R.id.buttonReturn9);
+        btnReturnback = findViewById(R.id.buttonReturn10);
 
         registerForContextMenu(tvDisplay);
 
         // On Create Formats.
         tvDisplay.setText(String.format(
-                "The Indian elephant goes by the scientific name Elephas maximus indicus. " +
-                        "They belong to the kingdom Animalia and class Mammalia. " +
-                        "These elephants come from a family called Elephantidae and have a subspecies called E. m. indicus. " +
-                        "They belong to the order called Proboscideans.\n" +
+                "The scientific name for the Indian star tortoise is Geochelone elegans. " +
+                        "This tortoise is just one of two extant members of the genus Geochelone; " +
+                        "the other is the Burmese star tortoise, Geochelone platynotan, " +
+                        "which is native to Myanmar.\n" +
                         "\n" +
-                        "The word elephas is the Latin influence for elephant, " +
-                        "but it comes from the Greek word ἐλέφαντος, which could’ve been influenced by the Egyptian word for ivory or elephant. " +
-                        "Interestingly, ivory’s etymology comes directly from Latin and Greek interpretations of the word elephant, " +
-                        "making them interconnected forever."
+                        "The Indian star tortoise belongs to the class Reptilia, " +
+                        "the order Testudines, the family Testudinidae and the genus Geochelone."
         ));
 
         tvScientific.setText(R.string.scientific_classification);
@@ -66,15 +64,13 @@ public class Elephant extends AppCompatActivity {
                 tvDescription.setTextColor(Color.GRAY);
 
                 tvDisplay.setText(String.format(
-                        "The Indian elephant goes by the scientific name Elephas maximus indicus. " +
-                                "They belong to the kingdom Animalia and class Mammalia. " +
-                                "These elephants come from a family called Elephantidae and have a subspecies called E. m. indicus. " +
-                                "They belong to the order called Proboscideans.\n" +
+                        "The scientific name for the Indian star tortoise is Geochelone elegans. " +
+                                "This tortoise is just one of two extant members of the genus Geochelone; " +
+                                "the other is the Burmese star tortoise, Geochelone platynotan, " +
+                                "which is native to Myanmar.\n" +
                                 "\n" +
-                                "The word elephas is the Latin influence for elephant, " +
-                                "but it comes from the Greek word ἐλέφαντος, which could’ve been influenced by the Egyptian word for ivory or elephant. " +
-                                "Interestingly, ivory’s etymology comes directly from Latin and Greek interpretations of the word elephant, " +
-                                "making them interconnected forever."
+                                "The Indian star tortoise belongs to the class Reptilia, " +
+                                "the order Testudines, the family Testudinidae and the genus Geochelone."
                 ));
             }
         });
@@ -90,11 +86,14 @@ public class Elephant extends AppCompatActivity {
                 tvScientific.setTextColor(Color.GRAY);
 
                 tvDisplay.setText(String.format(
-                        "Indian elephants are greyish-black animals that are a subspecies of the Asian elephant. " +
-                                "They are about 6.6 to 11.5 feet in height and weigh about 4000 to 1000 pounds.\n" +
+                        "With its unique star-shaped patterns and relatively compact size, " +
+                                "the Indian star tortoise is one of the most striking tortoises on the planet.\n" +
                                 "\n" +
-                                "These elephants go by the scientific name Elephas maximus indicus and have long trunks that are completely boneless. " +
-                                "The trunks are known to be made up of about 40,000 muscles."
+                                "Found in forests, grasslands, and shrublands across much of India, " +
+                                "Pakistan and Sri Lanka, the species has a high tolerance for seasonally wet or dry habitats and therefore is fairly adaptable. " +
+                                "Unfortunately, Indian star tortoises are popular in the international exotic pet trade, " +
+                                "and this is primarily why the species is now listed as Vulnerable on the IUCN Red List. " +
+                                "Various efforts are in place to protect these tortoises, including the Indian Wildlife Act of 1972."
                 ));
             }
         });
@@ -103,7 +102,7 @@ public class Elephant extends AppCompatActivity {
         tvLearnMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentURL = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/indian-elephant/"));
+                Intent intentURL = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/indian-star-tortoise/"));
                 startActivity(intentURL);
             }
         });
@@ -112,7 +111,7 @@ public class Elephant extends AppCompatActivity {
         btnReturnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Elephant.this, MainActivity.class);
+                Intent intent = new Intent(Tortoise.this, MainActivity.class);
                 startActivity(intent);
             }
         });
