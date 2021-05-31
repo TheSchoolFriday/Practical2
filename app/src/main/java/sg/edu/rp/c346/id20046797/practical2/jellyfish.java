@@ -17,6 +17,9 @@ import android.widget.Toast;
 
 public class jellyfish extends AppCompatActivity {
 
+    // Student ID: 20046797
+    // Student NAME: Muhammad Fudayl Bin Mohamin
+
     private int currentFontSize = 16;
 
     TextView tvScientific, tvDescription, tvDisplay, tvLearnMore;

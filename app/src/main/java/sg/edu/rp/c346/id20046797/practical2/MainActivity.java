@@ -10,6 +10,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Student ID: 20046797
+    // Student NAME: Muhammad Fudayl Bin Mohamin
+
     Button btnJackabee, btnJackal, btnJavanese, btnJerboa, btnJellyfish, btnWolfhound, btnTerrier, btnIguana, btnElephant, btnTortoise;
 
     @Override
